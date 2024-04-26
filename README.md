@@ -19,7 +19,7 @@ This code will only run in a Linux or Unix environment. Once you have the code, 
 ```
 make all
 ```
-All codes in the ```code``` folder will compile, including the shared buffer in the header. For more details please consult the documentation.
+All codes in the ```code``` folder will compile. For more details please consult the documentation.
 
 <br>
 
