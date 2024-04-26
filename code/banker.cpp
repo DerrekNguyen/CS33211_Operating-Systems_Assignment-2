@@ -28,7 +28,7 @@ vector<vector<int>> need;
 
 // Read allocation information from file
 void readAllocation() {
-   ifstream allocationFile("allocation.txt");
+   ifstream allocationFile("input/allocation.txt");
    int t;
    vector<int> temp;
    allocationFile >> t;
@@ -48,7 +48,7 @@ void readAllocation() {
 
 // Read available information from file
 void readAvailable() {
-   ifstream availableFile("available.txt");
+   ifstream availableFile("input/available.txt");
    int t;
    while (availableFile >> t) {
       available.push_back(t);
@@ -57,7 +57,7 @@ void readAvailable() {
 
 // Read max information from file
 void readMax() {
-   ifstream maxFile("max.txt");
+   ifstream maxFile("input/max.txt");
    int t;
    vector<int> temp;
    for (int i = 0; i < n; ++i) {
